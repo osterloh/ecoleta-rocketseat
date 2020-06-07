@@ -1,0 +1,18 @@
+{
+  "name": "Starter",
+  "version": "1.0.0",
+  "main": "srx/server.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "author": "Johnatan Osterloh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.1",
+    "sqlite3": "^4.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
